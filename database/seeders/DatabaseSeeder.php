@@ -15,6 +15,5 @@ class DatabaseSeeder extends Seeder
             'email'    => 'test@example.com',
             'password' => 123456789,
         ]);
-        Question::factory()->count(10)->create();
     }
 }
